@@ -1,0 +1,9 @@
+name = "bonerbots-worker"
+main = "cloudflare-worker.js"
+compatibility_date = "2025-11-11"
+workers_dev = true
+
+[env.production]
+workers_dev = true
+# If you later need Node libs, uncomment:
+# compatibility_flags = ["nodejs_compat"]
